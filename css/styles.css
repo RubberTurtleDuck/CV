@@ -1,0 +1,154 @@
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover {
+    color: #610094;
+}
+
+.button {
+    font-family: Oxanium;
+}
+
+button:hover {
+    color: #610094;
+}
+
+body {
+    background-color: #151515;
+    color: grey;
+    text-align: center;
+}
+
+.description {
+    line-height: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    top: 0px;
+}
+
+div {
+    background-color: #151515;
+    margin: 0px;
+}
+
+div.container {
+    background-color: #121212;
+    padding: 10px;
+}
+
+div.container:hover {
+    background-color: #202020;
+}
+
+div.intro {
+    margin: 0px;
+    position: relative;
+}
+
+div.main-page {
+    margin: 0 15% 0 15%;
+    height: auto;
+    position: relative;
+    top: 100px;
+}
+
+div.polaroid {
+    box-shadow: 0 4px 8px 0 #610094, 0 6px 20px 0 #610094;
+    margin-bottom: 100px;
+    text-align: left;
+    width: 350px;
+}
+
+@font-face {
+    font-family: "Horizon";
+    src: url(../fonts/Horizon-nMeM.ttf);
+}
+
+@font-face {
+    font-family: "Aquire";
+    src: url(../fonts/aquire-font/Aquire-BW0ox.otf);
+}
+
+@font-face {
+    font-family: "Oxanium";
+    src: url(../fonts/oxanium/Oxanium-Regular.ttf)
+}
+
+h1 {
+    color: white;
+    font-family: Horizon;
+    font-size: 60px;
+    margin: 0px;
+    position: absolute;
+    text-shadow: 0 0 15px #610094;
+    width: 365px;
+}
+
+h2 {
+    clear: left;
+    color: white;
+    font-family: Horizon;
+    font-size: 40px;
+    margin: 100px 0px 0px 0px;
+    text-align: left;
+    text-shadow: 0 0 10px #610094;
+}
+
+h3 {
+    color: white;
+    font-family: Aquire;
+    font-size:20px;
+}
+
+h4 {
+    background-color: #610094;
+    color:white;
+    font-family: Horizon;
+    font-size: 25px;
+    margin: 0px;
+    text-align: left;
+    text-shadow: 0 0 5px #610094;
+    width: 340px;
+}
+
+hr {
+    background-color: grey;
+    border-style: none;
+    height: 2px;
+    margin: 0px 0px 15px 0px;
+    width: 100%;
+}
+
+
+
+.links {
+    font-family: Robo_Sapien;
+    position: absolute;
+    right: 0%;
+    width: 200px;
+    height: 70px;
+}
+
+p {
+    color: grey;
+    font-family: Oxanium;
+    font-size: 16px;
+    margin: 0px;
+    text-align: left;
+}
+
+table {
+    border-style: none;
+    box-shadow: none;
+    font-family: Robo_Sapien;
+    padding: 0px;
+    text-align: left;
+}
+
+.thumbnail {
+    height: 100%;
+    width: 100%
+}
