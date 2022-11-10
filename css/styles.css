@@ -9,6 +9,7 @@ a:hover {
 
 .button {
     font-family: Oxanium;
+    font-size: 100%;
 }
 
 button:hover {
@@ -23,8 +24,6 @@ body {
 
 .description {
     line-height: 25px;
-    margin-left: 100px;
-    margin-right: 100px;
     position: relative;
     top: 0px;
 }
@@ -49,7 +48,7 @@ div.intro {
 }
 
 div.main-page {
-    margin: 0 15% 0 15%;
+    margin: 0 10% 0 10%;
     height: auto;
     position: relative;
     top: 100px;
@@ -59,7 +58,7 @@ div.polaroid {
     box-shadow: 0 4px 8px 0 #610094, 0 6px 20px 0 #610094;
     margin-bottom: 100px;
     text-align: left;
-    width: 350px;
+    width: 100%;
 }
 
 @font-face {
@@ -80,7 +79,7 @@ div.polaroid {
 h1 {
     color: white;
     font-family: Horizon;
-    font-size: 60px;
+    font-size: 350%;
     margin: 0px;
     position: absolute;
     text-shadow: 0 0 15px #610094;
@@ -107,7 +106,7 @@ h4 {
     background-color: #610094;
     color:white;
     font-family: Horizon;
-    font-size: 25px;
+    font-size: 150%;
     margin: 0px;
     text-align: left;
     text-shadow: 0 0 5px #610094;
@@ -122,7 +121,9 @@ hr {
     width: 100%;
 }
 
-
+iframe {
+    margin: 0 0 0 22%;
+}
 
 .links {
     font-family: Robo_Sapien;
@@ -137,7 +138,8 @@ p {
     font-family: Oxanium;
     font-size: 16px;
     margin: 0px;
-    text-align: left;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 table {
@@ -146,6 +148,11 @@ table {
     font-family: Robo_Sapien;
     padding: 0px;
     text-align: left;
+}
+
+td {
+    height: 30%;
+    width: 30%;
 }
 
 .thumbnail {
